@@ -7,18 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1E3F0E2C76B75B00C7F0BE /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F0D2C76B75B00C7F0BE /* Sleep.swift */; };
+		2A1E3F102C76CC2E00C7F0BE /* SleepCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F0F2C76CC2E00C7F0BE /* SleepCardView.swift */; };
+		2A1E3F122C76E84F00C7F0BE /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F112C76E84F00C7F0BE /* ClockView.swift */; };
+		2A1E3F142C76F7FB00C7F0BE /* MusicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F132C76F7FB00C7F0BE /* MusicInfo.swift */; };
+		2A1E3F162C76FFB900C7F0BE /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F152C76FFB900C7F0BE /* MusicView.swift */; };
+		2A1E3F182C77ECDF00C7F0BE /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F172C77ECDF00C7F0BE /* CategoryView.swift */; };
+		2A1E3F1A2C77F4CA00C7F0BE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F192C77F4CA00C7F0BE /* Category.swift */; };
+		2A1E3F1C2C782C8700C7F0BE /* SleepLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1E3F1B2C782C8700C7F0BE /* SleepLaunch.storyboard */; };
+		2A1E3F1F2C78340B00C7F0BE /* CheckCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F1E2C78340B00C7F0BE /* CheckCard.swift */; };
+		2A1E3F212C7836D500C7F0BE /* AddSleepJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F202C7836D500C7F0BE /* AddSleepJournalView.swift */; };
+		2A1E3F232C783D1B00C7F0BE /* WellnessCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F222C783D1B00C7F0BE /* WellnessCoach.swift */; };
+		2A1E3F252C783DA500C7F0BE /* SleepQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F242C783DA500C7F0BE /* SleepQualityView.swift */; };
+		2A1E3F272C784C8C00C7F0BE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F262C784C8C00C7F0BE /* SettingsView.swift */; };
+		2A1E3F292C7850F600C7F0BE /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E3F282C7850F600C7F0BE /* PersonalView.swift */; };
 		2A59CCA02C744405005760AF /* SleepOptimizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CC9F2C744405005760AF /* SleepOptimizeApp.swift */; };
 		2A59CCA22C744405005760AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCA12C744405005760AF /* ContentView.swift */; };
 		2A59CCA42C744407005760AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A59CCA32C744407005760AF /* Assets.xcassets */; };
 		2A59CCA72C744407005760AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A59CCA62C744407005760AF /* Preview Assets.xcassets */; };
+		2A59CCB42C74685F005760AF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A59CCB32C74685F005760AF /* Colors.xcassets */; };
+		2A59CCB72C7468FE005760AF /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCB62C7468FE005760AF /* ThemeProtocol.swift */; };
+		2A59CCB92C746926005760AF /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCB82C746926005760AF /* ThemeManager.swift */; };
+		2A59CCBB2C746DA4005760AF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCBA2C746DA4005760AF /* Color+Extensions.swift */; };
+		2A59CCBD2C747116005760AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCBC2C747116005760AF /* HomeView.swift */; };
+		2A59CCBF2C7471A4005760AF /* SleepHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCBE2C7471A4005760AF /* SleepHubView.swift */; };
+		2A59CCC32C7471E1005760AF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCC22C7471E1005760AF /* ProfileView.swift */; };
+		2A59CCC52C7471FF005760AF /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCC42C7471FF005760AF /* JournalView.swift */; };
+		2A59CCC72C747209005760AF /* RelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCC62C747209005760AF /* RelaxView.swift */; };
+		2A59CCC92C74761B005760AF /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCC82C74761B005760AF /* CustomTabItemView.swift */; };
+		2A59CCCB2C747914005760AF /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCCA2C747914005760AF /* HeroView.swift */; };
+		2A59CCCD2C747CE6005760AF /* HeroScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCCC2C747CE6005760AF /* HeroScheduleView.swift */; };
+		2A59CCCF2C748701005760AF /* HeroCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCCE2C748701005760AF /* HeroCheckView.swift */; };
+		2A59CCD12C749456005760AF /* CheckNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCD02C749456005760AF /* CheckNoteView.swift */; };
+		2A59CCD32C74F8A5005760AF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCD22C74F8A5005760AF /* Note.swift */; };
+		2A59CCD52C750202005760AF /* HeroLatestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCD42C750202005760AF /* HeroLatestView.swift */; };
+		2A59CCD72C750575005760AF /* ProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCD62C750575005760AF /* ProgressCardView.swift */; };
+		2A59CCD92C750934005760AF /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCD82C750934005760AF /* SleepView.swift */; };
+		2A59CCDD2C757171005760AF /* SleepSchedulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCDC2C757170005760AF /* SleepSchedulesView.swift */; };
+		2A59CCDF2C75755D005760AF /* AddSleepScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCDE2C75755D005760AF /* AddSleepScheduleView.swift */; };
+		2A59CCE12C7575C7005760AF /* BackButtonview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CCE02C7575C7005760AF /* BackButtonview.swift */; };
+		2A8EBEA52C79016300B41A51 /* ChartTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EBEA42C79016300B41A51 /* ChartTestView.swift */; };
+		2AE951C82C799CDB000FC6B6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE951C72C799CDB000FC6B6 /* OnboardingView.swift */; };
+		2AE951CA2C79AB64000FC6B6 /* NumberCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE951C92C79AB64000FC6B6 /* NumberCarouselView.swift */; };
+		2AE951CC2C79BBE7000FC6B6 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE951CB2C79BBE7000FC6B6 /* ConfirmationView.swift */; };
+		2AEB68E32C7ED87A006C4830 /* Sales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68E22C7ED87A006C4830 /* Sales.swift */; };
+		2AEB68E62C7ED8ED006C4830 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68E52C7ED8ED006C4830 /* SalesViewModel.swift */; };
+		2AEB68E82C7ED90D006C4830 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68E72C7ED90D006C4830 /* Book.swift */; };
+		2AEB68EA2C7ED93E006C4830 /* BookCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68E92C7ED93E006C4830 /* BookCategory.swift */; };
+		2AEB68EC2C7ED98D006C4830 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68EB2C7ED98D006C4830 /* Author.swift */; };
+		2AEB68EE2C7ED9C7006C4830 /* DailyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68ED2C7ED9C7006C4830 /* DailyChartView.swift */; };
+		2AEB68F02C7EE383006C4830 /* SleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68EF2C7EE383006C4830 /* SleepData.swift */; };
+		2AEB68F22C7EE3DE006C4830 /* SleepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68F12C7EE3DE006C4830 /* SleepViewModel.swift */; };
+		2AEB68F42C7EE489006C4830 /* SleepEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68F32C7EE489006C4830 /* SleepEntry.swift */; };
+		2AEB68F62C7EEB90006C4830 /* WeekChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68F52C7EEB90006C4830 /* WeekChartView.swift */; };
+		2AEB68F82C7EEDC3006C4830 /* MonthChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68F72C7EEDC3006C4830 /* MonthChartView.swift */; };
+		2AEB68FA2C7EF752006C4830 /* WeekSleepChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB68F92C7EF752006C4830 /* WeekSleepChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1E3F0D2C76B75B00C7F0BE /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		2A1E3F0F2C76CC2E00C7F0BE /* SleepCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCardView.swift; sourceTree = "<group>"; };
+		2A1E3F112C76E84F00C7F0BE /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		2A1E3F132C76F7FB00C7F0BE /* MusicInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfo.swift; sourceTree = "<group>"; };
+		2A1E3F152C76FFB900C7F0BE /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		2A1E3F172C77ECDF00C7F0BE /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		2A1E3F192C77F4CA00C7F0BE /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2A1E3F1B2C782C8700C7F0BE /* SleepLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SleepLaunch.storyboard; sourceTree = "<group>"; };
+		2A1E3F1D2C782DD400C7F0BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A1E3F1E2C78340B00C7F0BE /* CheckCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCard.swift; sourceTree = "<group>"; };
+		2A1E3F202C7836D500C7F0BE /* AddSleepJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSleepJournalView.swift; sourceTree = "<group>"; };
+		2A1E3F222C783D1B00C7F0BE /* WellnessCoach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessCoach.swift; sourceTree = "<group>"; };
+		2A1E3F242C783DA500C7F0BE /* SleepQualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepQualityView.swift; sourceTree = "<group>"; };
+		2A1E3F262C784C8C00C7F0BE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2A1E3F282C7850F600C7F0BE /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		2A59CC9C2C744405005760AF /* SleepOptimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepOptimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A59CC9F2C744405005760AF /* SleepOptimizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepOptimizeApp.swift; sourceTree = "<group>"; };
 		2A59CCA12C744405005760AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A59CCA32C744407005760AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A59CCA62C744407005760AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A59CCB32C74685F005760AF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2A59CCB62C7468FE005760AF /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		2A59CCB82C746926005760AF /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		2A59CCBA2C746DA4005760AF /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		2A59CCBC2C747116005760AF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2A59CCBE2C7471A4005760AF /* SleepHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepHubView.swift; sourceTree = "<group>"; };
+		2A59CCC22C7471E1005760AF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2A59CCC42C7471FF005760AF /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		2A59CCC62C747209005760AF /* RelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxView.swift; sourceTree = "<group>"; };
+		2A59CCC82C74761B005760AF /* CustomTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemView.swift; sourceTree = "<group>"; };
+		2A59CCCA2C747914005760AF /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		2A59CCCC2C747CE6005760AF /* HeroScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroScheduleView.swift; sourceTree = "<group>"; };
+		2A59CCCE2C748701005760AF /* HeroCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCheckView.swift; sourceTree = "<group>"; };
+		2A59CCD02C749456005760AF /* CheckNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNoteView.swift; sourceTree = "<group>"; };
+		2A59CCD22C74F8A5005760AF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		2A59CCD42C750202005760AF /* HeroLatestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLatestView.swift; sourceTree = "<group>"; };
+		2A59CCD62C750575005760AF /* ProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCardView.swift; sourceTree = "<group>"; };
+		2A59CCD82C750934005760AF /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		2A59CCDC2C757170005760AF /* SleepSchedulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSchedulesView.swift; sourceTree = "<group>"; };
+		2A59CCDE2C75755D005760AF /* AddSleepScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSleepScheduleView.swift; sourceTree = "<group>"; };
+		2A59CCE02C7575C7005760AF /* BackButtonview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonview.swift; sourceTree = "<group>"; };
+		2A8EBEA42C79016300B41A51 /* ChartTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTestView.swift; sourceTree = "<group>"; };
+		2AE951C72C799CDB000FC6B6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2AE951C92C79AB64000FC6B6 /* NumberCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCarouselView.swift; sourceTree = "<group>"; };
+		2AE951CB2C79BBE7000FC6B6 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		2AEB68E22C7ED87A006C4830 /* Sales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sales.swift; sourceTree = "<group>"; };
+		2AEB68E52C7ED8ED006C4830 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
+		2AEB68E72C7ED90D006C4830 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2AEB68E92C7ED93E006C4830 /* BookCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCategory.swift; sourceTree = "<group>"; };
+		2AEB68EB2C7ED98D006C4830 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		2AEB68ED2C7ED9C7006C4830 /* DailyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChartView.swift; sourceTree = "<group>"; };
+		2AEB68EF2C7EE383006C4830 /* SleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepData.swift; sourceTree = "<group>"; };
+		2AEB68F12C7EE3DE006C4830 /* SleepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewModel.swift; sourceTree = "<group>"; };
+		2AEB68F32C7EE489006C4830 /* SleepEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepEntry.swift; sourceTree = "<group>"; };
+		2AEB68F52C7EEB90006C4830 /* WeekChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekChartView.swift; sourceTree = "<group>"; };
+		2AEB68F72C7EEDC3006C4830 /* MonthChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthChartView.swift; sourceTree = "<group>"; };
+		2AEB68F92C7EF752006C4830 /* WeekSleepChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSleepChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +138,8 @@
 		2A59CC932C744405005760AF = {
 			isa = PBXGroup;
 			children = (
-				2A59CC9E2C744405005760AF /* SleepOptimize */,
 				2A59CC9D2C744405005760AF /* Products */,
+				2A59CC9E2C744405005760AF /* SleepOptimize */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +154,20 @@
 		2A59CC9E2C744405005760AF /* SleepOptimize */ = {
 			isa = PBXGroup;
 			children = (
+				2AEB68E42C7ED8E0006C4830 /* ViewModel */,
+				2A1E3F1D2C782DD400C7F0BE /* Info.plist */,
+				2A59CCB22C7456BE005760AF /* Webservice */,
 				2A59CC9F2C744405005760AF /* SleepOptimizeApp.swift */,
+				2A59CCB12C7456A1005760AF /* Extensions */,
+				2A59CCB02C745697005760AF /* ViewModels */,
+				2A59CCAF2C74568E005760AF /* Screens */,
+				2A59CCAE2C745683005760AF /* Views */,
+				2A59CCAD2C74567C005760AF /* Models */,
 				2A59CCA12C744405005760AF /* ContentView.swift */,
+				2A59CCB52C7468EE005760AF /* Protocols */,
+				2A59CCB32C74685F005760AF /* Colors.xcassets */,
 				2A59CCA32C744407005760AF /* Assets.xcassets */,
+				2A1E3F1B2C782C8700C7F0BE /* SleepLaunch.storyboard */,
 				2A59CCA52C744407005760AF /* Preview Content */,
 			);
 			path = SleepOptimize;
@@ -65,6 +179,127 @@
 				2A59CCA62C744407005760AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A59CCAD2C74567C005760AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A59CCD22C74F8A5005760AF /* Note.swift */,
+				2AEB68E72C7ED90D006C4830 /* Book.swift */,
+				2AEB68E92C7ED93E006C4830 /* BookCategory.swift */,
+				2AEB68EB2C7ED98D006C4830 /* Author.swift */,
+				2A1E3F0D2C76B75B00C7F0BE /* Sleep.swift */,
+				2AEB68EF2C7EE383006C4830 /* SleepData.swift */,
+				2AEB68E22C7ED87A006C4830 /* Sales.swift */,
+				2AEB68F32C7EE489006C4830 /* SleepEntry.swift */,
+				2A1E3F192C77F4CA00C7F0BE /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A59CCAE2C745683005760AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A59CCDB2C7551F8005760AF /* Profile */,
+				2A59CCDA2C7551DA005760AF /* Home */,
+				2A59CCE02C7575C7005760AF /* BackButtonview.swift */,
+				2A1E3F0F2C76CC2E00C7F0BE /* SleepCardView.swift */,
+				2AEB68F72C7EEDC3006C4830 /* MonthChartView.swift */,
+				2A1E3F222C783D1B00C7F0BE /* WellnessCoach.swift */,
+				2A1E3F132C76F7FB00C7F0BE /* MusicInfo.swift */,
+				2A1E3F242C783DA500C7F0BE /* SleepQualityView.swift */,
+				2AEB68F52C7EEB90006C4830 /* WeekChartView.swift */,
+				2AEB68F92C7EF752006C4830 /* WeekSleepChartView.swift */,
+				2A1E3F152C76FFB900C7F0BE /* MusicView.swift */,
+				2A1E3F172C77ECDF00C7F0BE /* CategoryView.swift */,
+				2A8EBEA42C79016300B41A51 /* ChartTestView.swift */,
+				2AE951C92C79AB64000FC6B6 /* NumberCarouselView.swift */,
+				2AEB68ED2C7ED9C7006C4830 /* DailyChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A59CCAF2C74568E005760AF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2A59CCBC2C747116005760AF /* HomeView.swift */,
+				2A59CCBE2C7471A4005760AF /* SleepHubView.swift */,
+				2A59CCC22C7471E1005760AF /* ProfileView.swift */,
+				2A1E3F282C7850F600C7F0BE /* PersonalView.swift */,
+				2A1E3F262C784C8C00C7F0BE /* SettingsView.swift */,
+				2A59CCC42C7471FF005760AF /* JournalView.swift */,
+				2A59CCDE2C75755D005760AF /* AddSleepScheduleView.swift */,
+				2AE951C72C799CDB000FC6B6 /* OnboardingView.swift */,
+				2A1E3F202C7836D500C7F0BE /* AddSleepJournalView.swift */,
+				2A59CCDC2C757170005760AF /* SleepSchedulesView.swift */,
+				2A59CCC62C747209005760AF /* RelaxView.swift */,
+				2AE951CB2C79BBE7000FC6B6 /* ConfirmationView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2A59CCB02C745697005760AF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2A59CCB12C7456A1005760AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A59CCBA2C746DA4005760AF /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A59CCB22C7456BE005760AF /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		2A59CCB52C7468EE005760AF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2A59CCB62C7468FE005760AF /* ThemeProtocol.swift */,
+				2A59CCB82C746926005760AF /* ThemeManager.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2A59CCDA2C7551DA005760AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A59CCC82C74761B005760AF /* CustomTabItemView.swift */,
+				2A59CCCA2C747914005760AF /* HeroView.swift */,
+				2A59CCD02C749456005760AF /* CheckNoteView.swift */,
+				2A59CCD82C750934005760AF /* SleepView.swift */,
+				2A59CCD42C750202005760AF /* HeroLatestView.swift */,
+				2A1E3F112C76E84F00C7F0BE /* ClockView.swift */,
+				2A59CCD62C750575005760AF /* ProgressCardView.swift */,
+				2A59CCCC2C747CE6005760AF /* HeroScheduleView.swift */,
+				2A59CCCE2C748701005760AF /* HeroCheckView.swift */,
+				2A1E3F1E2C78340B00C7F0BE /* CheckCard.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A59CCDB2C7551F8005760AF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2AEB68E42C7ED8E0006C4830 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2AEB68E52C7ED8ED006C4830 /* SalesViewModel.swift */,
+				2AEB68F12C7EE3DE006C4830 /* SleepViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +360,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A59CCB42C74685F005760AF /* Colors.xcassets in Resources */,
+				2A1E3F1C2C782C8700C7F0BE /* SleepLaunch.storyboard in Resources */,
 				2A59CCA72C744407005760AF /* Preview Assets.xcassets in Resources */,
 				2A59CCA42C744407005760AF /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +374,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AEB68EA2C7ED93E006C4830 /* BookCategory.swift in Sources */,
+				2A59CCC32C7471E1005760AF /* ProfileView.swift in Sources */,
+				2AE951CC2C79BBE7000FC6B6 /* ConfirmationView.swift in Sources */,
+				2AEB68F62C7EEB90006C4830 /* WeekChartView.swift in Sources */,
+				2AEB68F82C7EEDC3006C4830 /* MonthChartView.swift in Sources */,
+				2AEB68F02C7EE383006C4830 /* SleepData.swift in Sources */,
+				2AEB68E82C7ED90D006C4830 /* Book.swift in Sources */,
+				2A1E3F122C76E84F00C7F0BE /* ClockView.swift in Sources */,
+				2AEB68F42C7EE489006C4830 /* SleepEntry.swift in Sources */,
+				2A59CCBF2C7471A4005760AF /* SleepHubView.swift in Sources */,
+				2A59CCCB2C747914005760AF /* HeroView.swift in Sources */,
+				2AEB68FA2C7EF752006C4830 /* WeekSleepChartView.swift in Sources */,
+				2A59CCC92C74761B005760AF /* CustomTabItemView.swift in Sources */,
+				2A1E3F272C784C8C00C7F0BE /* SettingsView.swift in Sources */,
+				2A59CCBB2C746DA4005760AF /* Color+Extensions.swift in Sources */,
+				2AE951CA2C79AB64000FC6B6 /* NumberCarouselView.swift in Sources */,
+				2A59CCCD2C747CE6005760AF /* HeroScheduleView.swift in Sources */,
 				2A59CCA22C744405005760AF /* ContentView.swift in Sources */,
+				2A59CCD12C749456005760AF /* CheckNoteView.swift in Sources */,
+				2A59CCB92C746926005760AF /* ThemeManager.swift in Sources */,
+				2A1E3F212C7836D500C7F0BE /* AddSleepJournalView.swift in Sources */,
+				2A1E3F292C7850F600C7F0BE /* PersonalView.swift in Sources */,
+				2A59CCBD2C747116005760AF /* HomeView.swift in Sources */,
+				2AEB68EC2C7ED98D006C4830 /* Author.swift in Sources */,
+				2A1E3F0E2C76B75B00C7F0BE /* Sleep.swift in Sources */,
+				2A59CCCF2C748701005760AF /* HeroCheckView.swift in Sources */,
+				2A1E3F162C76FFB900C7F0BE /* MusicView.swift in Sources */,
+				2A1E3F102C76CC2E00C7F0BE /* SleepCardView.swift in Sources */,
+				2A59CCD92C750934005760AF /* SleepView.swift in Sources */,
+				2A59CCD32C74F8A5005760AF /* Note.swift in Sources */,
+				2A59CCC52C7471FF005760AF /* JournalView.swift in Sources */,
+				2A1E3F252C783DA500C7F0BE /* SleepQualityView.swift in Sources */,
+				2AEB68EE2C7ED9C7006C4830 /* DailyChartView.swift in Sources */,
 				2A59CCA02C744405005760AF /* SleepOptimizeApp.swift in Sources */,
+				2A59CCB72C7468FE005760AF /* ThemeProtocol.swift in Sources */,
+				2A59CCD72C750575005760AF /* ProgressCardView.swift in Sources */,
+				2A59CCC72C747209005760AF /* RelaxView.swift in Sources */,
+				2AE951C82C799CDB000FC6B6 /* OnboardingView.swift in Sources */,
+				2A1E3F182C77ECDF00C7F0BE /* CategoryView.swift in Sources */,
+				2AEB68E32C7ED87A006C4830 /* Sales.swift in Sources */,
+				2AEB68F22C7EE3DE006C4830 /* SleepViewModel.swift in Sources */,
+				2A8EBEA52C79016300B41A51 /* ChartTestView.swift in Sources */,
+				2A59CCD52C750202005760AF /* HeroLatestView.swift in Sources */,
+				2AEB68E62C7ED8ED006C4830 /* SalesViewModel.swift in Sources */,
+				2A1E3F232C783D1B00C7F0BE /* WellnessCoach.swift in Sources */,
+				2A1E3F1F2C78340B00C7F0BE /* CheckCard.swift in Sources */,
+				2A59CCE12C7575C7005760AF /* BackButtonview.swift in Sources */,
+				2A1E3F1A2C77F4CA00C7F0BE /* Category.swift in Sources */,
+				2A59CCDD2C757171005760AF /* SleepSchedulesView.swift in Sources */,
+				2A59CCDF2C75755D005760AF /* AddSleepScheduleView.swift in Sources */,
+				2A1E3F142C76F7FB00C7F0BE /* MusicInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +561,11 @@
 				DEVELOPMENT_TEAM = C3WFAPY3YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepOptimize/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +592,11 @@
 				DEVELOPMENT_TEAM = C3WFAPY3YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleepOptimize/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
